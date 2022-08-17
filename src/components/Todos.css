@@ -1,0 +1,27 @@
+.todos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todos-list{
+    height: auto;
+    min-width: 20%;
+    text-align: center;
+    list-style: none;
+    align-items: center; 
+    border: 2px rgba(39, 5, 107, 0.182) solid; 
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.todo-title{
+    display: grid;
+    grid-template-columns: auto;
+    margin-right:20px ;
+}
+.todos-delete-button{
+    border:2px gray solid;
+    border-radius: 2px;
+    background: rgba(159, 131, 131, 0.133);
+}
